@@ -23,3 +23,8 @@ const tail = function (array) {
     return undefined;
   }
 };
+//test case to make sure tail function returns
+// a new array and doesnt modify the old one
+const names = ["Julie", "Matt", "Tyra", "Landry"];
+console.log(tail(names));
+assertEqual(names.length, 4);
