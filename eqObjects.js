@@ -65,6 +65,9 @@ const longSleeveShirtObject = {
   color: "red",
   sleeveLength: "long",
 };
+
+// TEST CODE
+
 eqObjects(shirtObject, longSleeveShirtObject); // => false
 assertEqual(eqObjects(shirtObject, longSleeveShirtObject), false);
 
